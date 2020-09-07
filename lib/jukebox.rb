@@ -60,6 +60,6 @@ def run(songs)
   else help
   end
 end 
-
-  exit_jukebox
+  if user_input == "exit"
+    exit_jukebox
 end 
