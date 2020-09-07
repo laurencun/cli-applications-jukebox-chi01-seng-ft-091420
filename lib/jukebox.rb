@@ -49,7 +49,7 @@ def run(songs)
   until user_input == "exit"
 
   puts "Please enter a command:"
-  gets.strip
+  
 
   if user_input == "help"
     help 
